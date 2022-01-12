@@ -7,4 +7,6 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="frame">#FF734A1D</color>
+    <color name="brick">#FFDFA03B</color>
 </resources>

@@ -1,10 +1,17 @@
 package ru.drankin.dev.dreamteam.ui.theme
 
 import androidx.compose.foundation.isSystemInDarkTheme
+import androidx.compose.material.ButtonDefaults
 import androidx.compose.material.MaterialTheme
 import androidx.compose.material.darkColors
 import androidx.compose.material.lightColors
 import androidx.compose.runtime.Composable
+import androidx.compose.ui.res.colorResource
+import androidx.compose.ui.text.font.Font
+import androidx.compose.ui.text.font.FontFamily
+import androidx.compose.ui.text.font.FontStyle
+import androidx.compose.ui.text.font.FontWeight
+import ru.drankin.dev.dreamteam.R
 
 private val DarkColorPalette = darkColors(
     primary = Purple200,
@@ -25,6 +32,16 @@ private val LightColorPalette = lightColors(
     onBackground = Color.Black,
     onSurface = Color.Black,
     */
+)
+
+val ofontRuKistyac = FontFamily(
+    fonts = listOf(
+        Font(
+            resId = R.font.ofont_ru_kistyac,
+            weight = FontWeight.Bold,
+            style = FontStyle.Normal
+        )
+    )
 )
 
 @Composable
